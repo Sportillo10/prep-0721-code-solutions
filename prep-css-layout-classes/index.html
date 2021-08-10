@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Jurassic Park</h1>
+  <div class="row">
+    <div class="column">
+      <img src="https://m.media-amazon.com/images/I/51dZZ4pl-kL._AC_.jpg" alt="Jurassic Park Movie poster">
+      <h3>Jurassic Park</h3>
+      <p>On Isla Nublar, an InGen employee is attacked and killed by a Velociraptor, possibly a pack leader known as the Big One, while attempting to transport it to a heavily fortified enclosure. This prompts the worker's family to file a lawsuit against the company, and it successfully scares InGen's investors into thinking that the park is unsafe. The CEO of InGen, John Hammond, decides to reassure the investors by bringing a group of experts to his park in order to gain their approval of it. Among the group he invites is Paleontologist Dr. Alan Grant and Paleobotanist Dr. Ellie Sattler, two scientists whose digs he's been funding, Dr. Ian Malcolm, a mathematician (or "chaotician" as he calls himself) and his investor's lawyer, Donald Gennaro. Meanwhile, at Costa Rica, Dennis Nedry is meeting with Dr. Lewis Dodgson, a rival scientist of InGen working for Biosyn. Dennis is a computer programmer working for John on Isla Nublar and has recently become dissatisfied with his treatment by InGen. Dennis agrees to steal dinosaur embryos for Dodgson for a total of $1.5 Million Dollars.</p>
+    </div>
+    <div class="column">
+      <img src="https://d9nvuahg4xykp.cloudfront.net/8054113906879818820/2871760420366031598.jpg" alt="A poster for Jurassic Park Lost World">
+      <h3>Jurassic Park The Lost World</h3>
+      <p>An ailing Dr. John Hammond invites disgraced mathematician Dr. Ian Malcolm to his residence to discuss the recent incident. Hammond's company InGen, which created the dinosaurs, is now headed by Hammond's nephew Peter Ludlow, who used the incident to take control of the company from Hammond. Ian learns that InGen originally cloned the dinosaurs on Isla Sorna, but the island was abandoned during a hurricane and the animals were released into the wild to fend for themselves. Ludlow wants to exploit the island's creatures to save InGen from bankruptcy. Hammond asks Ian to join a team who will document the dinosaurs in their natural habitat, in order to encourage a policy of non-interference. Ian's girlfriend, paleontologist Dr. Sarah Harding, was hired and is already on Isla Sorna. Upon hearing this, Ian reluctantly agrees to go to the island, but only to retrieve Sarah.</p>
+    </div>
+    <div class="column">
+      <img src="https://images.moviesanywhere.com/677ef0f8892933ce05041c17284baa71/a57518d2-9e90-44bb-b09a-a24977e738e7.jpg" alt="A poster of Jurassic Park III">
+      <h3>Jurassic Park III</h3>
+      <p>Eight weeks later, paleontologist Dr. Alan Grant has made a new discovery about the intelligence of velociraptors, but struggles to secure funding for his research. Grant discusses his discovery of a resonating larynx on fossilized raptor remains with his longtime colleague, Ellie. This, and his experience at Jurassic Park, leads him to believe that the original velociraptors were socially sophisticated. He hypothesizes that if they had not gone extinct and continued to evolve, their descendants—rather than humans—would have become Earth's dominant species. His assistant, Billy Brennan, uses a three-dimensional printer to replicate the velociraptor larynx.</p>
+    </div>
+  </div>
+
+
+<!-- Complete the HTML here -->
+</div>
+</body>
+</html>
